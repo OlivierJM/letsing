@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "songs",
+  "info": {
+    "name": "Song"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "song"
+    },
+    "album": {
+      "model": "album",
+      "via": "song"
+    },
+    "lyrics": {
+      "type": "richtext"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
