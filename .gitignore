@@ -111,4 +111,5 @@ coverage
 exports
 .cache
 build
-config/database.js
+package-lock.json
+yarn.lock
