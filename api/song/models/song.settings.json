@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "songs",
   "info": {
-    "name": "Song"
+    "name": "Songs"
   },
   "options": {
     "increments": true,
@@ -18,11 +18,7 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "song"
-    },
-    "album": {
-      "model": "album",
-      "via": "song"
+      "via": "songs"
     },
     "lyrics": {
       "type": "richtext"
@@ -37,6 +33,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "album": {
+      "via": "songs",
+      "model": "album"
     }
   }
 }

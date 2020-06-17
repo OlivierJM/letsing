@@ -57,7 +57,7 @@
       "via": "user",
       "collection": "album"
     },
-    "song": {
+    "songs": {
       "via": "user",
       "collection": "song"
     }

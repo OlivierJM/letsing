@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "albums",
   "info": {
-    "name": "Album"
+    "name": "Albums"
   },
   "options": {
     "increments": true,
@@ -30,9 +30,9 @@
       "model": "user",
       "via": "album"
     },
-    "song": {
-      "via": "album",
-      "collection": "song"
+    "songs": {
+      "collection": "song",
+      "via": "album"
     }
   }
 }
