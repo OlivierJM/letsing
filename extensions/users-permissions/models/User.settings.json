@@ -53,13 +53,14 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "album": {
-      "via": "user",
+    "albums": {
       "collection": "album"
     },
     "songs": {
-      "via": "user",
       "collection": "song"
+    },
+    "group": {
+      "model": "group"
     }
   }
 }
