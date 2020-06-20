@@ -25,11 +25,6 @@
       "plugin": "upload",
       "required": false
     },
-    "user": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "album"
-    },
     "songs": {
       "collection": "song",
       "via": "album"

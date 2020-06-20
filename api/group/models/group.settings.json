@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups",
+  "info": {
+    "name": "Group"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "songs": {
+      "collection": "song"
+    },
+    "albums": {
+      "collection": "album"
+    },
+    "founded_at": {
+      "type": "date"
+    }
+  }
+}
