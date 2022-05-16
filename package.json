@@ -12,15 +12,15 @@
   "devDependencies": {},
   "dependencies": {
     "strapi": "3.4.6",
-    "strapi-admin": "3.4.6",
-    "strapi-connector-mongoose": "3.4.6",
-    "strapi-plugin-content-manager": "3.4.6",
-    "strapi-plugin-content-type-builder": "3.4.6",
-    "strapi-plugin-email": "3.4.6",
-    "strapi-plugin-graphql": "3.1.6",
-    "strapi-plugin-upload": "3.2.3",
-    "strapi-plugin-users-permissions": "3.4.6",
-    "strapi-utils": "3.4.6"
+    "strapi-admin": "3.6.10",
+    "strapi-connector-mongoose": "3.6.10",
+    "strapi-plugin-content-manager": "3.6.10",
+    "strapi-plugin-content-type-builder": "3.6.10",
+    "strapi-plugin-email": "3.6.10",
+    "strapi-plugin-graphql": "3.6.10",
+    "strapi-plugin-upload": "3.6.10",
+    "strapi-plugin-users-permissions": "3.6.10",
+    "strapi-utils": "3.6.10"
   },
   "author": {
     "name": "OlivierJM"
